@@ -6,6 +6,8 @@ public class Oops{
 
         p1.setTip(4);
         System.out.println(p1.tip);
+       Student s1 = new Student();
+       System.out.println(s1);
     }
 }
 
@@ -19,5 +21,13 @@ class Pen{
 
     void setTip(int newtip){
         tip=newtip;
+    }
+}
+
+class Student{
+    String name;
+    int roll_no;
+    Student(){
+      System.out.println("Constracter is called");
     }
 }

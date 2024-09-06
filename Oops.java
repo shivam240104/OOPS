@@ -28,6 +28,7 @@ class Student{
     String name;
     int roll_no;
     Student(){
+        //non parameterized constructor
       System.out.println("Constracter is called");
     }
 }
